@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kinesis Video Streams WebRTC</title>
+        <style>
+            /* You can adjust these styles to fit your application's needs */
+            .video-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .video-container video {
+                width: 640px;
+                height: 480px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Kinesis Video Streams WebRTC</h1>
+
+        <h2>Local Streams</h2>
+        <div class="video-container">
+            <video id="localView1" autoplay playsinline controls muted></video>
+            <video id="localView2" autoplay playsinline controls muted></video>
+        </div>
+        <button id="localPlay">Play</button>
+
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.814.0.min.js"></script>
+        <script src="https://unpkg.com/amazon-kinesis-video-streams-webrtc/dist/kvs-webrtc.min.js"></script>
+        <script src="MasterTwoStreams.js"></script>
+    </body>
+</html>
