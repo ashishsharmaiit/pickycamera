@@ -12,8 +12,12 @@ npm --version
 
 
 Then download the folder that you want to use - 
-1) Master folder has files for streaming single webcam video stream, and
+1) Master folder has files for streaming single webcam video stream -
+There are 3 versions of Master folders - one for streaming single camera, and two for streaming two videos with different code to see which one works well.
+
+
 2) Viewer folder has files for receiving upto 2 video streams
+
 
 Navigate to the folder within the master or viewer file within the terminal:
 
