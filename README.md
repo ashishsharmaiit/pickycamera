@@ -1,4 +1,4 @@
-Install Node JS on your system. On linux, do belo
+Install Node JS on your system. On linux, do below
 sudo apt update
 sudo apt install nodejs
 
